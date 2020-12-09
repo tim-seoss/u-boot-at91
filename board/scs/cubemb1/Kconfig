@@ -1,0 +1,15 @@
+if TARGET_SCS_CUBEMB1
+
+config SYS_BOARD
+	default "cubemb1"
+
+config SYS_VENDOR
+	default "scs"
+
+config SYS_SOC
+	default "at91"
+
+config SYS_CONFIG_NAME
+	default "cubemb1"
+
+endif

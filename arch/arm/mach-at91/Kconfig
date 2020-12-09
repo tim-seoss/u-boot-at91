@@ -309,6 +309,13 @@ config TARGET_WB50N
 	select SUPPORT_SPL
 	select ATMEL_SFR
 
+config TARGET_SCS_CUBEMB1
+	bool "South Coast Science cubemb1 board"
+	select BOARD_EARLY_INIT_F
+	select BOARD_LATE_INIT
+	select SAMA5D2
+	select SUPPORT_SPL
+
 endchoice
 
 config ATMEL_SFR
@@ -347,6 +354,7 @@ source "board/mini-box/picosam9g45/Kconfig"
 source "board/ronetix/pm9261/Kconfig"
 source "board/ronetix/pm9263/Kconfig"
 source "board/ronetix/pm9g45/Kconfig"
+source "board/scs/cubemb1/Kconfig"
 source "board/siemens/corvus/Kconfig"
 source "board/siemens/taurus/Kconfig"
 source "board/siemens/smartweb/Kconfig"

@@ -1,0 +1,6 @@
+SCS CUBEMB1 BOARD
+M:	Tim Small <tim@seoss.co.uk>
+S:	Maintained
+F:	board/scs/cubemb1/
+F:	include/configs/scs_cubemb1.h
+F:	configs/scs_cubemb1_mmc_defconfig

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0+
 /*
- * Forked from atmel/sama5d27_som1_ek/sama5d27_som1_ek.c 5255932f0167c502fc7fce527bfe7e81df3322f9
+ * Forked from board/atmel/sama5d2_xplained/sama5d2_xplained.c ef5a7438ac72798e82b9f8684bad935bcdd465e6
  *
  * Copyright (C) 2020 South East Open Source Solutions Ltd.
  *                    Tim Small <tim@seoss.co.uk>
